@@ -1,7 +1,5 @@
 module.exports = {
-  plugins: [
-    'googleappsscript',
-  ],
+  plugins: ['googleappsscript'],
   env: {
     'googleappsscript/googleappsscript': true,
   },

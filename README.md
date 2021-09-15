@@ -1,10 +1,10 @@
 # @hiroxto/eslint-config
 
-ESLintのShareable Config
+ESLint の Shareable Config
 
 ## 使い方
 
-eslintと@hiroxto/eslint-configをインストール。
+eslint と @hiroxto/eslint-config をインストール。
 
 ```shell
 $ yarn add -D eslint @hiroxto/eslint-config
@@ -15,9 +15,7 @@ $ yarn add -D eslint @hiroxto/eslint-config
 ```javascript
 module.exports = {
   root: true,
-  extends: [
-    '@hiroxto',
-  ],
+  extends: ['@hiroxto'],
   rules: {
     // プロジェクト固有のルールがあるならここに書く
   },
@@ -29,10 +27,7 @@ module.exports = {
 ```javascript
 module.exports = {
   root: true,
-  extends: [
-    '@hiroxto',
-    '@hiroxto/eslint-config/vue',
-  ],
+  extends: ['@hiroxto', '@hiroxto/eslint-config/vue'],
   rules: {
     // プロジェクト固有のルールがあるならここに書く
   },
