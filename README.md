@@ -34,7 +34,7 @@ module.exports = {
     '@hiroxto/eslint-config/vue',
   ],
   rules: {
-    // リポジトリ固有のルールがあるならここに書く
+    // プロジェクト固有のルールがあるならここに書く
   },
 };
 ```
