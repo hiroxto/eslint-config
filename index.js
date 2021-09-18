@@ -11,15 +11,18 @@ module.exports = {
     'no-new': 'off',
     indent: ['error', 2],
     'quote-props': ['error', 'as-needed'],
-    '@typescript-eslint/array-type': ['error', {default: 'array'}],
+    '@typescript-eslint/array-type': ['error', { default: 'array' }],
     '@typescript-eslint/consistent-type-definitions': ['error', 'interface'],
     '@typescript-eslint/type-annotation-spacing': [
       'error',
-      {before: false, after: true},
+      { before: false, after: true },
     ],
     'promise/catch-or-return': [
       'error',
-      {allowThen: true, terminationMethod: ['catch', 'asCallback', 'finally']},
+      {
+        allowThen: true,
+        terminationMethod: ['catch', 'asCallback', 'finally'],
+      },
     ],
   },
 };
