@@ -1,5 +1,8 @@
 # @hiroxto/eslint-config
 
+[![npm version](https://badge.fury.io/js/@hiroxto%2Feslint-config.svg)](https://badge.fury.io/js/@hiroxto%2Feslint-config)
+![GitHub Actions test workflow](https://github.com/hiroxto/eslint-config/actions/workflows/test.yml/badge.svg)
+
 ESLintのShareable Config
 
 ## 使い方
