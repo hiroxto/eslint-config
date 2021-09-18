@@ -1,10 +1,10 @@
 # @hiroxto/eslint-config
 
-ESLint の Shareable Config
+ESLintのShareable Config
 
 ## 使い方
 
-eslint と @hiroxto/eslint-config をインストール。
+eslintと@hiroxto/eslint-configをインストール。
 
 ```shell
 $ yarn add -D eslint @hiroxto/eslint-config
