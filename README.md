@@ -1,10 +1,13 @@
 # @hiroxto/eslint-config
 
-ESLint の Shareable Config
+[![npm version](https://badge.fury.io/js/@hiroxto%2Feslint-config.svg)](https://badge.fury.io/js/@hiroxto%2Feslint-config)
+![GitHub Actions test workflow](https://github.com/hiroxto/eslint-config/actions/workflows/test.yml/badge.svg)
+
+ESLintのShareable Config
 
 ## 使い方
 
-eslint と @hiroxto/eslint-config をインストール。
+eslintと@hiroxto/eslint-configをインストール。
 
 ```shell
 $ yarn add -D eslint @hiroxto/eslint-config
