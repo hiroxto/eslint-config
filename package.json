@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/hiroxto/eslint-config#readme",
   "prettier": "@hiroxto/prettier-config",
-  "dependencies": {
+  "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
     "eslint": "^7.32.0",
